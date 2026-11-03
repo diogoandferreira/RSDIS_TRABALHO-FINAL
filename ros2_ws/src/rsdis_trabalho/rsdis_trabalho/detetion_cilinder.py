@@ -5,6 +5,7 @@ from std_msgs.msg import String
 import cv2
 from cv_bridge import CvBridge
 import numpy as np
+from geometry_msgs.msg import Twist 
 
 class detecao_cilindros(Node):
 
@@ -12,8 +13,19 @@ class detecao_cilindros(Node):
         super().__init__('detecao_cilindros_node')
 
         self.bridge = CvBridge()
-        self.subscription = self.create_subscription(Image, 'camera/image_raw',self.convert_cv,10)
-        self.publisher = self.create_publisher(String, 'ugv_status', 10)
+        self.subscription = self.create_subscription(Image, '/uav/camera/image_raw',self.convert_cv,10)
+        self.publisher = self.create_publisher(String, '/ugv_status', 10)
+        self.uav_pub = self.create_publisher(Twist, '/uav/cmd_vel', 10)
+
+        self.tele_twist = Twist()
+        self.tele_twist.linear.x = 0.5
+        self.tele_twist.angular.z = 0.0
+
+        self.create_timer(0.1, self.uav_timer)
+        self.get_logger().info("Nó de deteção cilindro iniciado com sucesso!")
+
+    def uav_timer(self):
+        self.uav_pub.publish(self.tele_twist)
 
     def convert_cv(self, msg):
         
@@ -32,9 +44,13 @@ class detecao_cilindros(Node):
             status_msg = String()
             status_msg.data = "STOP"
             self.publisher.publish(status_msg)
+            self.tele_twist.linear.x = 0.0
 
-            cv2.imshow("Visão camara do drone", mascara)
-            cv2.waitKey(1)
+        else:
+            status_msg = String()
+            status_msg.data = "SAFE"
+            self.publisher.publish(status_msg)
+
 
 def main(args=None):
     rclpy.init(args=args)

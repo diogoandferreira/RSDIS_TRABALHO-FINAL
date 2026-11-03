@@ -14,14 +14,15 @@ class desvio_cilindros(Node):
         self.has_scan_received = False
         self.tele_twist.linear.x = 0.5
         self.tele_twist.angular.z = 0.0
-        self.estado_atual = "GO"
+        self.estado_atual = "SAFE"
         self.scan_ranges = []
         self.stop_distance = 0.5
 
-        self.subscription = self.create_subscription(String, 'ugv_status', self.status_callback, 10)
+        self.subscription = self.create_subscription(String, '/ugv_status', self.status_callback, 10)
         self.subscription = self.create_subscription(LaserScan, '/scan',self.scan_callback, 10)
         self.subscription = self.create_subscription(Twist, '/cmd_vel_raw',self.cmd_vel_raw_callback, 10)
-        self.publisher = self.create_publisher(Twist, 'cmd_vel',10)
+        self.publisher = self.create_publisher(Twist, '/uav/cmd_vel',10)
+        
         
         self.timer = self.create_timer(0.1, self.timer_callback)
         self.get_logger().info("Nó de desvio LiDAR iniciado com sucesso!")

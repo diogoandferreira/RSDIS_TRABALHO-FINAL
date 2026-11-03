@@ -176,7 +176,7 @@
     </model>
 
       <model name="uav"> <!-- drone-->
-          <pose> 0 0 2 0 0 0</pose>
+          <pose> 0 0 3 0 0 0</pose>
         <link name="base_link">
           <gravity>false</gravity>
           <inertial>
@@ -234,7 +234,7 @@
             <always_on>1</always_on>
             <update_rate>30</update_rate>
             <visualize>true</visualize>
-            <topic>camera/image_raw</topic>
+            <topic>/uav/camera/image_raw</topic>
           </sensor>
         </link>
 

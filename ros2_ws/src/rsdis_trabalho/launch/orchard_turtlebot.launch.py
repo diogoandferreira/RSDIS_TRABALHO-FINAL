@@ -23,7 +23,7 @@ def generate_launch_description():
     tb3_model_path = os.path.join(pkg_turtlebot3_gz, 'models', 'turtlebot3_waffle', 'model.sdf')
 
     # Meshes do pomar (contem a pasta orchard/orchard_world.dae)
-    clearpath_meshes = ('/home/diogo-ferreira/MEEC/1ANO/RSDIS/RSDIS/ros2_ws/src/'
+    clearpath_meshes = ('/home/diogo-ferreira/MEEC/1ANO/RSDIS/RSDIS_TRABALHO-FINAL/ros2_ws/src/'
                         'clearpath_simulator/clearpath_gz/meshes')
 
     set_gz_path = AppendEnvironmentVariable(
@@ -69,11 +69,11 @@ def generate_launch_description():
             '/joint_states@sensor_msgs/msg/JointState[gz.msgs.Model',
 
             '/scan@sensor_msgs/msg/LaserScan[gz.msgs.LaserScan',
-            '/uav/image_raw@sensor_msgs/msg/Image[gz.msgs.Image',
+
             '/uav/camera/image_raw@sensor_msgs/msg/Image[gz.msgs.Image',
-            '/uav/cmd_vel@geometry_msgs/msg/Twist]gz.msgs.Twist'
+            '/uav/camera/camera_info@sensor_msgs/msg/CameraInfo[gz.msgs.CameraInfo',
+            '/uav/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist'
         ],
-        remappings=[('/uav/camera/image_raw', '/camera/image_raw')],
         parameters=[{'use_sim_time': True}],
         output='screen',
     )
