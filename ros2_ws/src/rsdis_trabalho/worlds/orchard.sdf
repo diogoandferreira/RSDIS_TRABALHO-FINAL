@@ -15,7 +15,12 @@
     </plugin>
     <plugin name="gz::sim::systems::Imu" filename="libgz-sim-imu-system.so"/>
     <plugin name="gz::sim::systems::NavSat" filename="libgz-sim-navsat-system.so"/>
-
+    <plugin filename="gz-sim-odometry-publisher-system"
+            name="gz::sim::systems::OdometryPublisher">
+      <odom_frame>X3/odom</odom_frame>
+      <robot_base_frame>X3/base_link</robot_base_frame>
+      <dimensions>3</dimensions>
+    </plugin>
 
     <scene>
       <ambient>1 1 1 1</ambient>
@@ -175,6 +180,7 @@
       </link>
     </model>
 
+<<<<<<< HEAD
       <model name="uav"> <!-- drone-->
           <pose> 0 0 3 0 0 0</pose>
         <link name="base_link">
@@ -252,5 +258,13 @@
           <dimensions>3</dimensions>
         </plugin>
   </model>
+=======
+    <include>
+      <uri>model://x3_uav</uri>
+      <name>X3</name>
+      <pose>0 0 0.2 0 0 0</pose>
+    </include>
+
+>>>>>>> c
   </world>
 </sdf>
