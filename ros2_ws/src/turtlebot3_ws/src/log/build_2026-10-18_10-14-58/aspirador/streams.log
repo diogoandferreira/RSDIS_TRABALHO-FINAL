@@ -1,0 +1,28 @@
+[5.377s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/src/aspirador': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/RSDIS/turtlebot3_ws/src/install/aspirador/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aspirador build --build-base /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/build install --record /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/install.log --install-scripts $base/lib/aspirador --single-version-externally-managed install_data
+[6.190s] running egg_info
+[6.191s] creating ../build/aspirador/turtlebot3_functions.egg-info
+[6.262s] writing ../build/aspirador/turtlebot3_functions.egg-info/PKG-INFO
+[6.262s] writing dependency_links to ../build/aspirador/turtlebot3_functions.egg-info/dependency_links.txt
+[6.262s] writing entry points to ../build/aspirador/turtlebot3_functions.egg-info/entry_points.txt
+[6.263s] writing requirements to ../build/aspirador/turtlebot3_functions.egg-info/requires.txt
+[6.263s] writing top-level names to ../build/aspirador/turtlebot3_functions.egg-info/top_level.txt
+[6.263s] writing manifest file '../build/aspirador/turtlebot3_functions.egg-info/SOURCES.txt'
+[6.423s] reading manifest file '../build/aspirador/turtlebot3_functions.egg-info/SOURCES.txt'
+[6.430s] writing manifest file '../build/aspirador/turtlebot3_functions.egg-info/SOURCES.txt'
+[6.431s] running build
+[6.431s] running build_py
+[6.431s] creating /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/build
+[6.432s] creating /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/build/lib
+[6.432s] creating /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/build/lib/aspirador
+[6.432s] copying aspirador/aspirador.py -> /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/build/lib/aspirador
+[6.432s] copying aspirador/__init__.py -> /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/build/lib/aspirador
+[6.432s] running install
+[6.459s] running install_lib
+[6.545s] creating /home/claudio/RSDIS/turtlebot3_ws/src/install/aspirador/lib/python3.12/site-packages/aspirador
+[6.545s] copying /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/build/lib/aspirador/aspirador.py -> /home/claudio/RSDIS/turtlebot3_ws/src/install/aspirador/lib/python3.12/site-packages/aspirador
+[6.546s] copying /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/build/lib/aspirador/__init__.py -> /home/claudio/RSDIS/turtlebot3_ws/src/install/aspirador/lib/python3.12/site-packages/aspirador
+[6.546s] byte-compiling /home/claudio/RSDIS/turtlebot3_ws/src/install/aspirador/lib/python3.12/site-packages/aspirador/aspirador.py to aspirador.cpython-312.pyc
+[6.549s] byte-compiling /home/claudio/RSDIS/turtlebot3_ws/src/install/aspirador/lib/python3.12/site-packages/aspirador/__init__.py to __init__.cpython-312.pyc
+[6.550s] running install_data
+[6.550s] error: can't copy 'resource/turtlebot3_functions': doesn't exist or not a regular file
+[6.690s] Invoked command in '/home/claudio/RSDIS/turtlebot3_ws/src/aspirador' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/RSDIS/turtlebot3_ws/src/install/aspirador/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aspirador build --build-base /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/build install --record /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/install.log --install-scripts $base/lib/aspirador --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[4.936s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/src/rsdis_t3b': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/src/build/rsdis_t3b/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rsdis_t3b build --build-base /home/claudio/RSDIS/turtlebot3_ws/src/build/rsdis_t3b/build install --record /home/claudio/RSDIS/turtlebot3_ws/src/build/rsdis_t3b/install.log --install-scripts $base/lib/rsdis_t3b --single-version-externally-managed install_data
+[6.223s] running egg_info
+[6.309s] writing ../build/rsdis_t3b/rsdis_t3b.egg-info/PKG-INFO
+[6.310s] writing dependency_links to ../build/rsdis_t3b/rsdis_t3b.egg-info/dependency_links.txt
+[6.311s] writing entry points to ../build/rsdis_t3b/rsdis_t3b.egg-info/entry_points.txt
+[6.311s] writing requirements to ../build/rsdis_t3b/rsdis_t3b.egg-info/requires.txt
+[6.312s] writing top-level names to ../build/rsdis_t3b/rsdis_t3b.egg-info/top_level.txt
+[6.448s] reading manifest file '../build/rsdis_t3b/rsdis_t3b.egg-info/SOURCES.txt'
+[6.463s] writing manifest file '../build/rsdis_t3b/rsdis_t3b.egg-info/SOURCES.txt'
+[6.463s] running build
+[6.464s] running build_py
+[6.464s] running install
+[6.475s] running install_lib
+[6.580s] running install_data
+[6.583s] running install_egg_info
+[6.685s] removing '/home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/lib/python3.12/site-packages/rsdis_t3b-0.0.0-py3.12.egg-info' (and everything under it)
+[6.687s] Copying ../build/rsdis_t3b/rsdis_t3b.egg-info to /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/lib/python3.12/site-packages/rsdis_t3b-0.0.0-py3.12.egg-info
+[6.688s] running install_scripts
+[7.117s] Installing aspirador script to /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/lib/rsdis_t3b
+[7.117s] Installing cilindro script to /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/lib/rsdis_t3b
+[7.117s] writing list of installed files to '/home/claudio/RSDIS/turtlebot3_ws/src/build/rsdis_t3b/install.log'

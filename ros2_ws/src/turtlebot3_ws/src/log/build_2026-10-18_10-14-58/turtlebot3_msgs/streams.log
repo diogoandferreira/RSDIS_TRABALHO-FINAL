@@ -1,0 +1,38 @@
+[0.106s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/claudio/RSDIS/turtlebot3_ws/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_msgs
+[1.857s] -- The C compiler identification is GNU 13.3.0
+[1.857s] -- The CXX compiler identification is GNU 13.3.0
+[1.857s] -- Detecting C compiler ABI info
+[1.857s] -- Detecting C compiler ABI info - done
+[1.857s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.857s] -- Detecting C compile features
+[1.858s] -- Detecting C compile features - done
+[1.858s] -- Detecting CXX compiler ABI info
+[1.858s] -- Detecting CXX compiler ABI info - done
+[1.858s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.858s] -- Detecting CXX compile features
+[1.858s] -- Detecting CXX compile features - done
+[1.858s] -- Found action_msgs: 2.0.4 (/opt/ros/jazzy/share/action_msgs/cmake)
+[2.370s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.978s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.048s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.255s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.540s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.625s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.635s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.728s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[6.568s] -- Found ament_cmake_cppcheck: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[6.602s] -- Found ament_cmake_cpplint: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[6.602s] -- Found ament_cmake_uncrustify: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[6.630s] -- Found ament_cmake_ros: 0.12.2 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[8.825s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.535s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.546s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[9.833s] -- Found PythonExtra: /usr/bin/python3  
+[10.761s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[10.940s] -- Found ament_cmake_flake8: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[10.950s] -- Found ament_cmake_pep257: 0.17.5 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[11.066s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[11.090s] -- Configuring done (11.0s)
+[11.218s] -- Generating done (0.1s)
+[11.292s] -- Build files have been written to: /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_msgs

@@ -1,0 +1,19 @@
+[2.861s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build --no-deps symlink_data --force
+[3.669s] running develop
+[4.186s] running egg_info
+[4.245s] writing rsdis_t3a.egg-info/PKG-INFO
+[4.245s] writing dependency_links to rsdis_t3a.egg-info/dependency_links.txt
+[4.247s] writing entry points to rsdis_t3a.egg-info/entry_points.txt
+[4.247s] writing requirements to rsdis_t3a.egg-info/requires.txt
+[4.247s] writing top-level names to rsdis_t3a.egg-info/top_level.txt
+[4.370s] reading manifest file 'rsdis_t3a.egg-info/SOURCES.txt'
+[4.371s] writing manifest file 'rsdis_t3a.egg-info/SOURCES.txt'
+[4.419s] running build_ext
+[4.421s] Creating /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages/rsdis-t3a.egg-link (link to .)
+[4.421s] Installing aspirador script to /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/aspirador
+[4.422s] 
+[4.422s] Installed /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a
+[4.422s] running symlink_data
+[4.423s] symbolically linking /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/resource/rsdis_t3a -> /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/share/ament_index/resource_index/packages
+[4.423s] symbolically linking /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/package.xml -> /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/share/rsdis_t3a
+[4.546s] Invoked command in '/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build --no-deps symlink_data --force

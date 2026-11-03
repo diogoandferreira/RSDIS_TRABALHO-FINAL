@@ -1,0 +1,12 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[ 25%] Built target turtlebot3_drive
+[ 37%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/src/obstacle2.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[ 50%] Built target obstacle2
+[ 62%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/src/obstacle1.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[ 75%] Built target obstacle1
+[ 87%] [32mBuilding CXX object CMakeFiles/obstacles.dir/src/obstacles.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[100%] Built target obstacles

@@ -1,0 +1,3 @@
+[console_scripts]
+aspirador = rsdis_t3b.aspirador:main
+cilindro = rsdis_t3b.cilindro:main

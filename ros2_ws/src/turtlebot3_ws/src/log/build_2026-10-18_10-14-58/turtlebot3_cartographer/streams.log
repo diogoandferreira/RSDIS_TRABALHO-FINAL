@@ -1,0 +1,46 @@
+[0.090s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/claudio/RSDIS/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer
+[1.840s] -- The C compiler identification is GNU 13.3.0
+[1.840s] -- The CXX compiler identification is GNU 13.3.0
+[1.847s] -- Detecting C compiler ABI info
+[1.848s] -- Detecting C compiler ABI info - done
+[1.848s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.848s] -- Detecting C compile features
+[1.848s] -- Detecting C compile features - done
+[1.849s] -- Detecting CXX compiler ABI info
+[1.849s] -- Detecting CXX compiler ABI info - done
+[1.849s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.849s] -- Detecting CXX compile features
+[1.849s] -- Detecting CXX compile features - done
+[1.849s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.065s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.802s] -- Configuring done (2.7s)
+[2.834s] -- Generating done (0.0s)
+[2.834s] -- Build files have been written to: /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_cartographer
+[3.018s] Invoked command in '/home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/claudio/RSDIS/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer
+[3.020s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_cartographer -- -j8 -l8
+[3.207s] Invoked command in '/home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_cartographer -- -j8 -l8
+[3.304s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_cartographer
+[3.385s] -- Install configuration: ""
+[3.385s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config
+[3.389s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[3.390s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch
+[3.390s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[3.396s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[3.396s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz
+[3.396s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[3.396s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[3.396s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[3.398s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[3.399s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[3.402s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[3.413s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[3.413s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[3.413s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[3.413s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[3.413s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[3.415s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[3.416s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[3.431s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[3.432s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[3.432s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[3.440s] Invoked command in '/home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_cartographer

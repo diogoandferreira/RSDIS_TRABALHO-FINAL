@@ -1,0 +1,31 @@
+[1.772s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/src/rsdis_t3a': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rsdis_t3a build --build-base /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build install --record /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/install.log --install-scripts $base/lib/aspirador --single-version-externally-managed install_data
+[2.437s] running egg_info
+[2.437s] creating ../../build/rsdis_t3a/rsdis_t3a.egg-info
+[2.489s] writing ../../build/rsdis_t3a/rsdis_t3a.egg-info/PKG-INFO
+[2.489s] writing dependency_links to ../../build/rsdis_t3a/rsdis_t3a.egg-info/dependency_links.txt
+[2.490s] writing entry points to ../../build/rsdis_t3a/rsdis_t3a.egg-info/entry_points.txt
+[2.490s] writing requirements to ../../build/rsdis_t3a/rsdis_t3a.egg-info/requires.txt
+[2.490s] writing top-level names to ../../build/rsdis_t3a/rsdis_t3a.egg-info/top_level.txt
+[2.490s] writing manifest file '../../build/rsdis_t3a/rsdis_t3a.egg-info/SOURCES.txt'
+[2.578s] reading manifest file '../../build/rsdis_t3a/rsdis_t3a.egg-info/SOURCES.txt'
+[2.579s] writing manifest file '../../build/rsdis_t3a/rsdis_t3a.egg-info/SOURCES.txt'
+[2.580s] running build
+[2.580s] running build_py
+[2.580s] creating /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build
+[2.580s] creating /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build/lib
+[2.580s] creating /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build/lib/rsdis_t3a
+[2.580s] copying rsdis_t3a/aspirador.py -> /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build/lib/rsdis_t3a
+[2.581s] copying rsdis_t3a/__init__.py -> /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build/lib/rsdis_t3a
+[2.581s] running install
+[2.590s] running install_lib
+[2.640s] creating /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages/rsdis_t3a
+[2.640s] copying /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build/lib/rsdis_t3a/aspirador.py -> /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages/rsdis_t3a
+[2.641s] copying /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build/lib/rsdis_t3a/__init__.py -> /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages/rsdis_t3a
+[2.643s] byte-compiling /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages/rsdis_t3a/aspirador.py to aspirador.cpython-312.pyc
+[2.644s] byte-compiling /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages/rsdis_t3a/__init__.py to __init__.cpython-312.pyc
+[2.644s] running install_data
+[2.644s] creating /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/share/ament_index
+[2.644s] creating /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/share/ament_index/resource_index
+[2.645s] creating /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/share/ament_index/resource_index/packages
+[2.645s] error: can't copy 'resource/rsdis_t3a': doesn't exist or not a regular file
+[2.716s] Invoked command in '/home/claudio/RSDIS/turtlebot3_ws/src/rsdis_t3a' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rsdis_t3a build --build-base /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build install --record /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/install.log --install-scripts $base/lib/aspirador --single-version-externally-managed install_data

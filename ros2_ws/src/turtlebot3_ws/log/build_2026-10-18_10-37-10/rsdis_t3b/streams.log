@@ -1,0 +1,22 @@
+[4.413s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/src/rsdis_t3b': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3b/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3b/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rsdis_t3b build --build-base /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3b/build install --record /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3b/install.log --install-scripts $base/lib/rsdis_t3b --single-version-externally-managed install_data
+[5.532s] running egg_info
+[5.597s] writing ../../build/rsdis_t3b/rsdis_t3b.egg-info/PKG-INFO
+[5.598s] writing dependency_links to ../../build/rsdis_t3b/rsdis_t3b.egg-info/dependency_links.txt
+[5.600s] writing entry points to ../../build/rsdis_t3b/rsdis_t3b.egg-info/entry_points.txt
+[5.601s] writing requirements to ../../build/rsdis_t3b/rsdis_t3b.egg-info/requires.txt
+[5.602s] writing top-level names to ../../build/rsdis_t3b/rsdis_t3b.egg-info/top_level.txt
+[5.762s] reading manifest file '../../build/rsdis_t3b/rsdis_t3b.egg-info/SOURCES.txt'
+[5.766s] writing manifest file '../../build/rsdis_t3b/rsdis_t3b.egg-info/SOURCES.txt'
+[5.769s] running build
+[5.770s] running build_py
+[5.770s] running install
+[5.797s] running install_lib
+[5.874s] running install_data
+[5.874s] running install_egg_info
+[5.942s] removing '/home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3b/lib/python3.12/site-packages/rsdis_t3b-0.0.0-py3.12.egg-info' (and everything under it)
+[5.948s] Copying ../../build/rsdis_t3b/rsdis_t3b.egg-info to /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3b/lib/python3.12/site-packages/rsdis_t3b-0.0.0-py3.12.egg-info
+[5.950s] running install_scripts
+[6.516s] Installing aspirador script to /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3b/lib/rsdis_t3b
+[6.519s] Installing cilindro script to /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3b/lib/rsdis_t3b
+[6.524s] writing list of installed files to '/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3b/install.log'
+[6.695s] Invoked command in '/home/claudio/RSDIS/turtlebot3_ws/src/rsdis_t3b' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3b/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3b/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rsdis_t3b build --build-base /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3b/build install --record /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3b/install.log --install-scripts $base/lib/rsdis_t3b --single-version-externally-managed install_data

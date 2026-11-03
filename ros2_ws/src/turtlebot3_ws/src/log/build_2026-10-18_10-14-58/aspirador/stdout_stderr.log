@@ -1,0 +1,26 @@
+running egg_info
+creating ../build/aspirador/turtlebot3_functions.egg-info
+writing ../build/aspirador/turtlebot3_functions.egg-info/PKG-INFO
+writing dependency_links to ../build/aspirador/turtlebot3_functions.egg-info/dependency_links.txt
+writing entry points to ../build/aspirador/turtlebot3_functions.egg-info/entry_points.txt
+writing requirements to ../build/aspirador/turtlebot3_functions.egg-info/requires.txt
+writing top-level names to ../build/aspirador/turtlebot3_functions.egg-info/top_level.txt
+writing manifest file '../build/aspirador/turtlebot3_functions.egg-info/SOURCES.txt'
+reading manifest file '../build/aspirador/turtlebot3_functions.egg-info/SOURCES.txt'
+writing manifest file '../build/aspirador/turtlebot3_functions.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/build
+creating /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/build/lib
+creating /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/build/lib/aspirador
+copying aspirador/aspirador.py -> /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/build/lib/aspirador
+copying aspirador/__init__.py -> /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/build/lib/aspirador
+running install
+running install_lib
+creating /home/claudio/RSDIS/turtlebot3_ws/src/install/aspirador/lib/python3.12/site-packages/aspirador
+copying /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/build/lib/aspirador/aspirador.py -> /home/claudio/RSDIS/turtlebot3_ws/src/install/aspirador/lib/python3.12/site-packages/aspirador
+copying /home/claudio/RSDIS/turtlebot3_ws/src/build/aspirador/build/lib/aspirador/__init__.py -> /home/claudio/RSDIS/turtlebot3_ws/src/install/aspirador/lib/python3.12/site-packages/aspirador
+byte-compiling /home/claudio/RSDIS/turtlebot3_ws/src/install/aspirador/lib/python3.12/site-packages/aspirador/aspirador.py to aspirador.cpython-312.pyc
+byte-compiling /home/claudio/RSDIS/turtlebot3_ws/src/install/aspirador/lib/python3.12/site-packages/aspirador/__init__.py to __init__.cpython-312.pyc
+running install_data
+error: can't copy 'resource/turtlebot3_functions': doesn't exist or not a regular file

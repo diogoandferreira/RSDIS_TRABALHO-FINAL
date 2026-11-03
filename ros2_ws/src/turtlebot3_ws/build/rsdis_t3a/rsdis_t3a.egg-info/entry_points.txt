@@ -1,0 +1,2 @@
+[console_scripts]
+aspirador = rsdis_t3a.aspirador:main

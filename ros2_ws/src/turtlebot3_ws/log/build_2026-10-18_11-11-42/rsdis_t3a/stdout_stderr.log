@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing rsdis_t3a.egg-info/PKG-INFO
+writing dependency_links to rsdis_t3a.egg-info/dependency_links.txt
+writing entry points to rsdis_t3a.egg-info/entry_points.txt
+writing requirements to rsdis_t3a.egg-info/requires.txt
+writing top-level names to rsdis_t3a.egg-info/top_level.txt
+reading manifest file 'rsdis_t3a.egg-info/SOURCES.txt'
+writing manifest file 'rsdis_t3a.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages/rsdis-t3a.egg-link (link to .)
+Installing aspirador script to /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/aspirador
+
+Installed /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a
+running symlink_data
+symbolically linking /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/resource/rsdis_t3a -> /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/share/ament_index/resource_index/packages
+symbolically linking /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/package.xml -> /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/share/rsdis_t3a

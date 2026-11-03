@@ -1,0 +1,3 @@
+[console_scripts]
+aspirador = nos.aspirador:main
+cilindro = nos.cilindro:main

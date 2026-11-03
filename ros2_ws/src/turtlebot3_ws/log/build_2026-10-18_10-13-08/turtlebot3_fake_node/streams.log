@@ -1,0 +1,34 @@
+[0.635s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_msgs:/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2:/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_description:/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_cartographer:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/claudio/RSDIS/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_fake_node
+[0.788s] -- The C compiler identification is GNU 13.3.0
+[0.889s] -- The CXX compiler identification is GNU 13.3.0
+[0.919s] -- Detecting C compiler ABI info
+[1.119s] -- Detecting C compiler ABI info - done
+[1.136s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.137s] -- Detecting C compile features
+[1.138s] -- Detecting C compile features - done
+[1.159s] -- Detecting CXX compiler ABI info
+[1.380s] -- Detecting CXX compiler ABI info - done
+[1.413s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.413s] -- Detecting CXX compile features
+[1.440s] -- Detecting CXX compile features - done
+[1.443s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.893s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.248s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.347s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.377s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.477s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.588s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.656s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.742s] -- Found rmw_implementation_cmake: 7.3.4 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.749s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.937s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.969s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[3.003s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.137s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.170s] -- Found tf2: 0.36.23 (/opt/ros/jazzy/share/tf2/cmake)
+[3.179s] -- Found tf2_msgs: 0.36.23 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[3.265s] -- Found turtlebot3_msgs: 2.4.0 (/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[3.438s] -- Configuring done (2.8s)
+[3.460s] -- Generating done (0.0s)
+[3.465s] -- Build files have been written to: /home/claudio/RSDIS/turtlebot3_ws/build/turtlebot3_fake_node

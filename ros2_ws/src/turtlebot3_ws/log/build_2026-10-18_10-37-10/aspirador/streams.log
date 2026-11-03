@@ -1,0 +1,16 @@
+[5.216s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/src/nos': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/build/aspirador/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/RSDIS/turtlebot3_ws/install/aspirador/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aspirador build --build-base /home/claudio/RSDIS/turtlebot3_ws/build/aspirador/build install --record /home/claudio/RSDIS/turtlebot3_ws/build/aspirador/install.log --install-scripts $base/lib/aspirador --single-version-externally-managed install_data
+[6.896s] running egg_info
+[6.977s] writing ../../build/aspirador/turtlebot3_functions.egg-info/PKG-INFO
+[6.981s] writing dependency_links to ../../build/aspirador/turtlebot3_functions.egg-info/dependency_links.txt
+[6.984s] writing entry points to ../../build/aspirador/turtlebot3_functions.egg-info/entry_points.txt
+[6.990s] writing requirements to ../../build/aspirador/turtlebot3_functions.egg-info/requires.txt
+[6.991s] writing top-level names to ../../build/aspirador/turtlebot3_functions.egg-info/top_level.txt
+[7.197s] reading manifest file '../../build/aspirador/turtlebot3_functions.egg-info/SOURCES.txt'
+[7.215s] writing manifest file '../../build/aspirador/turtlebot3_functions.egg-info/SOURCES.txt'
+[7.215s] running build
+[7.218s] running build_py
+[7.218s] running install
+[7.237s] running install_lib
+[7.309s] running install_data
+[7.310s] error: can't copy 'resource/turtlebot3_functions': doesn't exist or not a regular file
+[7.441s] Invoked command in '/home/claudio/RSDIS/turtlebot3_ws/src/nos' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/build/aspirador/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/RSDIS/turtlebot3_ws/install/aspirador/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/aspirador build --build-base /home/claudio/RSDIS/turtlebot3_ws/build/aspirador/build install --record /home/claudio/RSDIS/turtlebot3_ws/build/aspirador/install.log --install-scripts $base/lib/aspirador --single-version-externally-managed install_data

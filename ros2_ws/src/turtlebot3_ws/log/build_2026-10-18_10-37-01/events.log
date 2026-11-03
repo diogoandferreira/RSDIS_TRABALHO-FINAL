@@ -1,0 +1,18 @@
+[0.000000] (-) TimerEvent: {}
+[0.000341] (-) JobUnselected: {'identifier': 'aspirador'}
+[0.000402] (-) JobUnselected: {'identifier': 'rsdis_t3b'}
+[0.000437] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000467] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000499] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000534] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000564] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000597] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000629] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.000662] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000695] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.000729] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000762] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.000801] (turtlebot3) JobQueued: {'identifier': 'turtlebot3', 'dependencies': OrderedDict({'turtlebot3_cartographer': '/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_cartographer', 'turtlebot3_description': '/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_description', 'turtlebot3_msgs': '/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_msgs', 'turtlebot3_navigation2': '/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2', 'turtlebot3_teleop': '/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_teleop', 'turtlebot3_example': '/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_example', 'turtlebot3_node': '/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_node', 'turtlebot3_bringup': '/home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_bringup'})}
+[0.000920] (turtlebot3) JobStarted: {'identifier': 'turtlebot3'}
+[0.026893] (turtlebot3) JobEnded: {'identifier': 'turtlebot3', 'rc': 1}
+[0.028182] (-) EventReactorShutdown: {}

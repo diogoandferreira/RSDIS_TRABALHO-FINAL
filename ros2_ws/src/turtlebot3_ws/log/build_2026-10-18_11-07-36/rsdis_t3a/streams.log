@@ -1,0 +1,22 @@
+[1.902s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/src/rsdis_t3a': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rsdis_t3a build --build-base /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build install --record /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/install.log --install-scripts $base/lib/aspirador --single-version-externally-managed install_data
+[2.510s] running egg_info
+[2.555s] writing ../../build/rsdis_t3a/rsdis_t3a.egg-info/PKG-INFO
+[2.559s] writing dependency_links to ../../build/rsdis_t3a/rsdis_t3a.egg-info/dependency_links.txt
+[2.559s] writing entry points to ../../build/rsdis_t3a/rsdis_t3a.egg-info/entry_points.txt
+[2.560s] writing requirements to ../../build/rsdis_t3a/rsdis_t3a.egg-info/requires.txt
+[2.560s] writing top-level names to ../../build/rsdis_t3a/rsdis_t3a.egg-info/top_level.txt
+[2.649s] reading manifest file '../../build/rsdis_t3a/rsdis_t3a.egg-info/SOURCES.txt'
+[2.650s] writing manifest file '../../build/rsdis_t3a/rsdis_t3a.egg-info/SOURCES.txt'
+[2.651s] running build
+[2.651s] running build_py
+[2.652s] running install
+[2.662s] running install_lib
+[2.711s] running install_data
+[2.712s] copying resource/rsdis_t3a -> /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/share/ament_index/resource_index/packages
+[2.712s] copying package.xml -> /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/share/rsdis_t3a
+[2.712s] running install_egg_info
+[2.761s] Copying ../../build/rsdis_t3a/rsdis_t3a.egg-info to /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages/rsdis_t3a-0.0.0-py3.12.egg-info
+[2.763s] running install_scripts
+[3.065s] Installing aspirador script to /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/aspirador
+[3.066s] writing list of installed files to '/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/install.log'
+[3.153s] Invoked command in '/home/claudio/RSDIS/turtlebot3_ws/src/rsdis_t3a' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rsdis_t3a build --build-base /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build install --record /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/install.log --install-scripts $base/lib/aspirador --single-version-externally-managed install_data

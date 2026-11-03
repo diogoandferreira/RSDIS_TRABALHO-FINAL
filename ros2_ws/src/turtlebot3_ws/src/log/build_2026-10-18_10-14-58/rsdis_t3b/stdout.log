@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/rsdis_t3b/rsdis_t3b.egg-info
+writing ../build/rsdis_t3b/rsdis_t3b.egg-info/PKG-INFO
+writing dependency_links to ../build/rsdis_t3b/rsdis_t3b.egg-info/dependency_links.txt
+writing entry points to ../build/rsdis_t3b/rsdis_t3b.egg-info/entry_points.txt
+writing requirements to ../build/rsdis_t3b/rsdis_t3b.egg-info/requires.txt
+writing top-level names to ../build/rsdis_t3b/rsdis_t3b.egg-info/top_level.txt
+writing manifest file '../build/rsdis_t3b/rsdis_t3b.egg-info/SOURCES.txt'
+reading manifest file '../build/rsdis_t3b/rsdis_t3b.egg-info/SOURCES.txt'
+writing manifest file '../build/rsdis_t3b/rsdis_t3b.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/claudio/RSDIS/turtlebot3_ws/src/build/rsdis_t3b/build
+creating /home/claudio/RSDIS/turtlebot3_ws/src/build/rsdis_t3b/build/lib
+creating /home/claudio/RSDIS/turtlebot3_ws/src/build/rsdis_t3b/build/lib/rsdis_t3b
+copying rsdis_t3b/aspirador.py -> /home/claudio/RSDIS/turtlebot3_ws/src/build/rsdis_t3b/build/lib/rsdis_t3b
+copying rsdis_t3b/cilindro.py -> /home/claudio/RSDIS/turtlebot3_ws/src/build/rsdis_t3b/build/lib/rsdis_t3b
+copying rsdis_t3b/__init__.py -> /home/claudio/RSDIS/turtlebot3_ws/src/build/rsdis_t3b/build/lib/rsdis_t3b
+running install
+running install_lib
+creating /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/lib/python3.12/site-packages/rsdis_t3b
+copying /home/claudio/RSDIS/turtlebot3_ws/src/build/rsdis_t3b/build/lib/rsdis_t3b/aspirador.py -> /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/lib/python3.12/site-packages/rsdis_t3b
+copying /home/claudio/RSDIS/turtlebot3_ws/src/build/rsdis_t3b/build/lib/rsdis_t3b/cilindro.py -> /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/lib/python3.12/site-packages/rsdis_t3b
+copying /home/claudio/RSDIS/turtlebot3_ws/src/build/rsdis_t3b/build/lib/rsdis_t3b/__init__.py -> /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/lib/python3.12/site-packages/rsdis_t3b
+byte-compiling /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/lib/python3.12/site-packages/rsdis_t3b/aspirador.py to aspirador.cpython-312.pyc
+byte-compiling /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/lib/python3.12/site-packages/rsdis_t3b/cilindro.py to cilindro.cpython-312.pyc
+byte-compiling /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/lib/python3.12/site-packages/rsdis_t3b/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/share/ament_index
+creating /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/share/ament_index/resource_index
+creating /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/share/ament_index/resource_index/packages
+copying resource/rsdis_t3b -> /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/share/ament_index/resource_index/packages
+copying package.xml -> /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/share/rsdis_t3b
+running install_egg_info
+Copying ../build/rsdis_t3b/rsdis_t3b.egg-info to /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/lib/python3.12/site-packages/rsdis_t3b-0.0.0-py3.12.egg-info
+running install_scripts
+Installing aspirador script to /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/lib/rsdis_t3b
+Installing cilindro script to /home/claudio/RSDIS/turtlebot3_ws/src/install/rsdis_t3b/lib/rsdis_t3b
+writing list of installed files to '/home/claudio/RSDIS/turtlebot3_ws/src/build/rsdis_t3b/install.log'

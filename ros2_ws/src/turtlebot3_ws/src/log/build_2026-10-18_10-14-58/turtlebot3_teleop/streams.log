@@ -1,0 +1,41 @@
+[5.377s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/src/turtlebot3/turtlebot3_teleop': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_teleop/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_teleop build --build-base /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_teleop/build install --record /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_teleop/install.log --install-scripts $base/lib/turtlebot3_teleop --single-version-externally-managed install_data
+[6.483s] running egg_info
+[6.483s] creating ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info
+[6.545s] writing ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[6.545s] writing dependency_links to ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[6.545s] writing entry points to ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[6.545s] writing requirements to ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[6.546s] writing top-level names to ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[6.550s] writing manifest file '../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[6.720s] reading manifest file '../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[6.724s] writing manifest file '../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[6.724s] running build
+[6.725s] running build_py
+[6.725s] creating /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_teleop/build
+[6.726s] creating /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_teleop/build/lib
+[6.726s] creating /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[6.726s] copying turtlebot3_teleop/__init__.py -> /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[6.727s] creating /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[6.727s] copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[6.728s] copying turtlebot3_teleop/script/__init__.py -> /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[6.728s] running install
+[6.744s] running install_lib
+[6.795s] creating /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop
+[6.796s] creating /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/script
+[6.802s] copying /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/script
+[6.802s] copying /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/script
+[6.802s] copying /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop
+[6.802s] byte-compiling /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+[6.807s] byte-compiling /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-312.pyc
+[6.809s] byte-compiling /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-312.pyc
+[6.810s] running install_data
+[6.811s] creating /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_teleop/share/ament_index
+[6.812s] creating /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_teleop/share/ament_index/resource_index
+[6.813s] creating /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[6.813s] copying resource/turtlebot3_teleop -> /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[6.814s] copying package.xml -> /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_teleop/share/turtlebot3_teleop
+[6.815s] running install_egg_info
+[6.895s] Copying ../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_teleop/lib/python3.12/site-packages/turtlebot3_teleop-2.3.7-py3.12.egg-info
+[6.906s] running install_scripts
+[7.268s] Installing teleop_keyboard script to /home/claudio/RSDIS/turtlebot3_ws/src/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[7.270s] writing list of installed files to '/home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_teleop/install.log'

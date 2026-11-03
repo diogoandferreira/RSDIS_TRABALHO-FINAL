@@ -1,0 +1,28 @@
+running egg_info
+creating ../../build/rsdis_t3a/rsdis_t3a.egg-info
+writing ../../build/rsdis_t3a/rsdis_t3a.egg-info/PKG-INFO
+writing dependency_links to ../../build/rsdis_t3a/rsdis_t3a.egg-info/dependency_links.txt
+writing entry points to ../../build/rsdis_t3a/rsdis_t3a.egg-info/entry_points.txt
+writing requirements to ../../build/rsdis_t3a/rsdis_t3a.egg-info/requires.txt
+writing top-level names to ../../build/rsdis_t3a/rsdis_t3a.egg-info/top_level.txt
+writing manifest file '../../build/rsdis_t3a/rsdis_t3a.egg-info/SOURCES.txt'
+reading manifest file '../../build/rsdis_t3a/rsdis_t3a.egg-info/SOURCES.txt'
+writing manifest file '../../build/rsdis_t3a/rsdis_t3a.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build
+creating /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build/lib
+creating /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build/lib/rsdis_t3a
+copying rsdis_t3a/aspirador.py -> /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build/lib/rsdis_t3a
+copying rsdis_t3a/__init__.py -> /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build/lib/rsdis_t3a
+running install
+running install_lib
+creating /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages/rsdis_t3a
+copying /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build/lib/rsdis_t3a/aspirador.py -> /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages/rsdis_t3a
+copying /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build/lib/rsdis_t3a/__init__.py -> /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages/rsdis_t3a
+byte-compiling /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages/rsdis_t3a/aspirador.py to aspirador.cpython-312.pyc
+byte-compiling /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages/rsdis_t3a/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/share/ament_index
+creating /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/share/ament_index/resource_index
+creating /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/share/ament_index/resource_index/packages

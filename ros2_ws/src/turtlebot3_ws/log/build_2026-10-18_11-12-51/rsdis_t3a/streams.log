@@ -1,0 +1,17 @@
+[2.515s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build --no-deps symlink_data
+[3.183s] running develop
+[3.636s] running egg_info
+[3.680s] writing rsdis_t3a.egg-info/PKG-INFO
+[3.682s] writing dependency_links to rsdis_t3a.egg-info/dependency_links.txt
+[3.682s] writing entry points to rsdis_t3a.egg-info/entry_points.txt
+[3.682s] writing requirements to rsdis_t3a.egg-info/requires.txt
+[3.683s] writing top-level names to rsdis_t3a.egg-info/top_level.txt
+[3.774s] reading manifest file 'rsdis_t3a.egg-info/SOURCES.txt'
+[3.774s] writing manifest file 'rsdis_t3a.egg-info/SOURCES.txt'
+[3.829s] running build_ext
+[3.829s] Creating /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages/rsdis-t3a.egg-link (link to .)
+[3.831s] Installing aspirador script to /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/rsdis_t3a
+[3.832s] 
+[3.833s] Installed /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a
+[3.834s] running symlink_data
+[3.962s] Invoked command in '/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/build --no-deps symlink_data

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: rsdis-t3b
+Version: 0.0.0
+Summary: Pacote ROS 2 para exploracao e detecao de cilindros
+Maintainer: claudio
+Maintainer-email: 1230758@isep.ipp.pt
+License: TODO: License declaration
+Provides-Extra: test

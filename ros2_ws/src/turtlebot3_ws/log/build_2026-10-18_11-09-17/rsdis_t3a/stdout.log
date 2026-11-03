@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/rsdis_t3a/rsdis_t3a.egg-info/PKG-INFO
+writing dependency_links to ../../build/rsdis_t3a/rsdis_t3a.egg-info/dependency_links.txt
+writing entry points to ../../build/rsdis_t3a/rsdis_t3a.egg-info/entry_points.txt
+writing requirements to ../../build/rsdis_t3a/rsdis_t3a.egg-info/requires.txt
+writing top-level names to ../../build/rsdis_t3a/rsdis_t3a.egg-info/top_level.txt
+reading manifest file '../../build/rsdis_t3a/rsdis_t3a.egg-info/SOURCES.txt'
+writing manifest file '../../build/rsdis_t3a/rsdis_t3a.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying resource/rsdis_t3a -> /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/share/ament_index/resource_index/packages
+running install_egg_info
+removing '/home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages/rsdis_t3a-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/rsdis_t3a/rsdis_t3a.egg-info to /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/python3.12/site-packages/rsdis_t3a-0.0.0-py3.12.egg-info
+running install_scripts
+Installing aspirador script to /home/claudio/RSDIS/turtlebot3_ws/install/rsdis_t3a/lib/aspirador
+writing list of installed files to '/home/claudio/RSDIS/turtlebot3_ws/build/rsdis_t3a/install.log'

@@ -1,0 +1,13 @@
+[0.086s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/claudio/RSDIS/turtlebot3_ws/src/build/turtlebot3_gazebo -- -j8 -l8
+[1.279s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[23.241s] [ 25%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[24.451s] [ 25%] Built target turtlebot3_drive
+[24.492s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/src/obstacle2.cpp.o[0m
+[28.194s] [ 50%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[28.604s] [ 50%] Built target obstacle2
+[28.648s] [ 62%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/src/obstacle1.cpp.o[0m
+[32.349s] [ 75%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[32.787s] [ 75%] Built target obstacle1
+[32.830s] [ 87%] [32mBuilding CXX object CMakeFiles/obstacles.dir/src/obstacles.cpp.o[0m
+[37.524s] [100%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[38.045s] [100%] Built target obstacles

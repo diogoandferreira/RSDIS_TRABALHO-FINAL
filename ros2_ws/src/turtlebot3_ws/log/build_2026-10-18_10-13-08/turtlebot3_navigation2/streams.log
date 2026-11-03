@@ -1,0 +1,37 @@
+[0.124s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/claudio/RSDIS/turtlebot3_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[2.436s] Invoked command in '/home/claudio/RSDIS/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/claudio/RSDIS/turtlebot3_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[2.439s] Invoking command in '/home/claudio/RSDIS/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/claudio/RSDIS/turtlebot3_ws/build/turtlebot3_navigation2
+[3.237s] -- Install configuration: ""
+[3.237s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[3.237s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[3.238s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[3.238s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[3.238s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[3.238s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[3.238s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[3.238s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[3.239s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[3.239s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble
+[3.239s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[3.239s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[3.239s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[3.240s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[3.240s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[3.240s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[3.240s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[3.241s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[3.241s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[3.241s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[3.241s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[3.242s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[3.242s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[3.242s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[3.242s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[3.242s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[3.242s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[3.243s] -- Installing: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[3.243s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[3.243s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[3.244s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[3.244s] -- Up-to-date: /home/claudio/RSDIS/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[3.383s] Invoked command in '/home/claudio/RSDIS/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/claudio/RSDIS/turtlebot3_ws/build/turtlebot3_navigation2
