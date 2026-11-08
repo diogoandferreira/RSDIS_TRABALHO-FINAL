@@ -56,7 +56,7 @@ def generate_launch_description():
         executable='create',
         arguments=['-name', 'turtlebot3_waffle',
                    '-file', tb3_model_path,
-                   '-x', '0.0', '-y', '0.0', '-z', '0.3'],
+                   '-x', '0.0', '-y', '1.0', '-z', '0.3'],
         output='screen',
     )
 

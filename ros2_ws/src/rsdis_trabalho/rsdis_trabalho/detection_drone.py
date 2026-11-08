@@ -1,5 +1,6 @@
 import rclpy
 from rclpy.node import Node
+from rclpy.qos import QoSProfile, DurabilityPolicy, ReliabilityPolicy
 from sensor_msgs.msg import Image
 from std_msgs.msg import String, Bool
 from geometry_msgs.msg import Twist, Point
@@ -14,6 +15,7 @@ SUBIR = 'SUBIR'
 PROCURAR = 'PROCURAR'
 CENTRAR = 'CENTRAR'
 PASSAR = 'PASSAR'
+VOLTAR_CASA = 'VOLTAR_CASA'
 CONCLUIDO = 'CONCLUIDO'
 
 
@@ -28,20 +30,29 @@ class detecao_cilindros(Node):
         self.subscription = self.create_subscription(Image, '/uav/camera/image_raw', self.convert_cv, 10)  # camara do UAV
         self.odom_sub = self.create_subscription(Odometry, '/X3/gazebo/odometry', self.odom_cb, 10)         # posicao UAV
 
-        self.status_pub = self.create_publisher(String, '/ugv_status', 10)           # estados do drone para o UGV (SAFE, STOP, DONE)
+        self.status_pub = self.create_publisher(String, '/ugv_status', 10)           # estados do drone para o UGV (SAFE, STOP, BACKHOME, DONE)
         self.uav_pub = self.create_publisher(Twist, '/X3/gazebo/command/twist', 10)  # twist de comando para o UAV
         self.enable_pub = self.create_publisher(Bool, '/X3/enable', 10)              # enable do UAV (para manter motores ligados)
 
-        self.arvore_det_pub = self.create_publisher(Point, '/arvores_detetadas', 10)  # posição das árvores detetadas (X, Y, Z) para o UGV
+        # transient_local: quem se ligar depois (o UGV) recebe também as árvores já registadas
+        qos_arvores = QoSProfile(depth=50, reliability=ReliabilityPolicy.RELIABLE,
+                                 durability=DurabilityPolicy.TRANSIENT_LOCAL)
+        self.arvore_det_pub = self.create_publisher(Point, '/arvores_detetadas', qos_arvores)  # posição das árvores detetadas (X, Y, Z) para o UGV
 
         self.current_x = 0.0
         self.current_y = 0.0
         self.current_z = 0.0
         self.current_yaw = 0.0
 
+        self.spawn_x = 0.0
+        self.spawn_y = 0.0
+        self.spawn_z = 0.0
+        self.spawn_registado = False
+
         # Variáveis de Estado
         self.estado = SUBIR
         self.altura_alvo = 4.0   # altura de voo (m)
+        self.motores_ligados = True     # passa a False quando aterra
 
         self.candidatos_atuais = []     # blobs verdes da imagem atual
         self.alvo_time = self.get_clock().now()
@@ -50,7 +61,7 @@ class detecao_cilindros(Node):
 
         self.contador_centrado = 0
         self.cilindros_visitados = 0
-        self.max_cilindros = 14         # número total de cilindros a visitar
+        self.max_cilindros = 4        # número total de cilindros a visitar
 
         # --- Geometria da câmara (virada para baixo) ---
         self.fov_h = 1.047              # horizontal_fov do model.sdf (rad)
@@ -69,6 +80,12 @@ class detecao_cilindros(Node):
         self.d_fino = 0.12              # m: abaixo disto deixa de rodar
         self.d_centrado = 0.15          # m: considera-se centrado abaixo disto
         self.cmd_em_corpo = True        # False se o X3 interpretar o Twist no referencial do mundo
+
+        # --- Voltar a casa e aterrar ---
+        self.v_max_casa = 0.5           # velocidade maxima a voltar (m/s)
+        self.dist_casa = 0.5            # m: abaixo disto comeca a descer
+        self.v_descida = 0.5            # m/s
+        self.a_aterrar = False          # fica True quando chega por cima de casa
 
         # Temporizador a 10 Hz
         self.create_timer(0.1, self.uav_timer)
@@ -112,11 +129,9 @@ class detecao_cilindros(Node):
             self.alvo_time = self.get_clock().now()
 
     def estimar_posicao_arvore(self, ex, ey, w, h):
-        """Estima a posição (x, y) no mundo de um blob, a partir do erro na imagem.
-        Câmara a apontar para baixo: topo da imagem = frente do drone, direita da imagem = direita
-        do drone. Usa o yaw atual para passar do referencial do drone para o do mundo."""
+
         dist = max(self.current_z - self.altura_topo_arvore, 0.5)    # câmara -> topo do cilindro
-        largura_m = 2.0 * dist * math.tan(self.fov_h / 2.0)          # largura vista no plano do topo
+        largura_m = 2.0 * dist * math.tan(self.fov_h / 2.0)
         frente = -ey * (h / w) * largura_m
         esquerda = -ex * largura_m
         c, sn = math.cos(self.current_yaw), math.sin(self.current_yaw)
@@ -125,8 +140,7 @@ class detecao_cilindros(Node):
         return arvore_x, arvore_y
 
     def comando_centrar(self, ex, ey, w, h):
-        """Controlo tipo 'unicycle' sobre o erro da imagem: roda para ficar virado para a árvore
-        e avança em frente. Devolve (velocidade_frente, velocidade_rotação, distância_em_m)."""
+
         dist_cam = max(self.current_z - self.altura_topo_arvore, 0.5)
         largura_m = 2.0 * dist_cam * math.tan(self.fov_h / 2.0)
         frente = -ey * (h / w) * largura_m        # m à frente do drone (negativo = atrás)
@@ -165,9 +179,9 @@ class detecao_cilindros(Node):
         return (melhor['ex'], melhor['ey'], ax, ay, melhor['w'], melhor['h'])
 
     def uav_timer(self):
-        # Habilitar motores do X3
+        # Habilitar motores do X3 (passa a False quando aterra)
         enable_msg = Bool()
-        enable_msg.data = True
+        enable_msg.data = self.motores_ligados
         self.enable_pub.publish(enable_msg)
 
         agora = self.get_clock().now()
@@ -189,11 +203,18 @@ class detecao_cilindros(Node):
                 self.get_logger().info(f"Altura de {self.altura_alvo}m atingida. A iniciar prospeção do pomar!")
                 self.estado = PROCURAR
 
+            if not self.spawn_registado and self.current_z > 0.01:
+                self.spawn_x = self.current_x
+                self.spawn_y = self.current_y
+                self.spawn_z = self.current_z
+                self.spawn_registado = True
+                self.get_logger().info(f"Posição inicial guardada: X={self.spawn_x:.2f}, Y={self.spawn_y:.2f}, Z={self.spawn_z:.2f}")
+
         elif self.estado == PROCURAR:
             status = "SAFE"
             if resultado_alvo is not None:
                 # há uma árvore nova à vista (à frente, ao lado ou atrás): vai centrar nela
-                self.get_logger().info("Nova árvore detetada! A iniciar centramento...")
+                self.get_logger().info("Nova árvore detetada!")
                 self.contador_centrado = 0
                 self.t_sem_alvo = agora
                 self.estado = CENTRAR
@@ -251,17 +272,52 @@ class detecao_cilindros(Node):
             t_passar = (agora - self.t_passar).nanoseconds / 1e9
             if t_passar >= self.tempo_passar and (abs(erro_yaw) < 0.08 or t_passar > 4.0):
                 if self.cilindros_visitados >= self.max_cilindros:
-                    self.get_logger().info("Missão cumprida! Todas as árvores visitadas.")
-                    self.estado = CONCLUIDO
+                    self.get_logger().info("Missão cumprida! Todas as árvores visitadas. A voltar para casa...")
+                    self.estado = VOLTAR_CASA
                 else:
                     self.get_logger().info("A procurar a próxima árvore nova...")
                     self.estado = PROCURAR
 
+        elif self.estado == VOLTAR_CASA:
+            status = "BACKHOME"
+            dist_origem = math.hypot(self.current_x - self.spawn_x, self.current_y - self.spawn_y)
+
+            # 1. Voltar à origem: vira para casa e avança em frente (sem andar de lado)
+            if not self.a_aterrar and dist_origem > self.dist_casa:
+                angulo_origem = math.atan2(self.spawn_y - self.current_y, self.spawn_x - self.current_x)
+                erro_yaw = math.atan2(math.sin(angulo_origem - self.current_yaw),
+                                      math.cos(angulo_origem - self.current_yaw))
+                cmd.angular.z = float(np.clip(self.k_yaw * erro_yaw, -self.w_max, self.w_max))
+                cmd.linear.x = float(np.clip(self.k_v * dist_origem * max(0.0, math.cos(erro_yaw)) ** 3,
+                                             0.0, self.v_max_casa))
+                # (cmd.linear.z fica com a manutenção de altura de cima)
+                self.get_logger().info(f"BACK HOME: a regressar à origem... Distância: {dist_origem:.2f}m",
+                                       throttle_duration_sec=2.0)
+
+            # 2. Por cima de casa: desce de forma controlada
+            elif self.current_z > self.spawn_z + 0.3:
+                self.a_aterrar = True        # a partir daqui já não volta a andar na horizontal
+                cmd.linear.x = 0.0
+                cmd.linear.y = 0.0
+                cmd.angular.z = 0.0
+                cmd.linear.z = -self.v_descida
+                self.get_logger().info(f"A descer para a aterragem... Altura atual: {self.current_z:.2f}m",
+                                       throttle_duration_sec=1.0)
+
+            # 3. Já está em baixo
+            else:
+                self.get_logger().info("UAV aterrou na posição inicial.")
+                self.estado = CONCLUIDO
+
         elif self.estado == CONCLUIDO:
+            status = "DONE"
             cmd.linear.x = 0.0
             cmd.linear.y = 0.0
+            cmd.angular.z = 0.0
             cmd.linear.z = 0.0
-            status = "DONE"
+            if self.motores_ligados:
+                self.motores_ligados = False   # desliga os motores
+                self.get_logger().info("Motores desligados.")
 
         if not self.cmd_em_corpo:   # converter velocidade do corpo para o mundo
             c, sn = math.cos(self.current_yaw), math.sin(self.current_yaw)
