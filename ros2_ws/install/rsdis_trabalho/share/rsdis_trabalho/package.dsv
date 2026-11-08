@@ -1,0 +1,6 @@
+source;share/rsdis_trabalho/hook/pythonpath.ps1
+source;share/rsdis_trabalho/hook/pythonpath.dsv
+source;share/rsdis_trabalho/hook/pythonpath.sh
+source;share/rsdis_trabalho/hook/ament_prefix_path.ps1
+source;share/rsdis_trabalho/hook/ament_prefix_path.dsv
+source;share/rsdis_trabalho/hook/ament_prefix_path.sh

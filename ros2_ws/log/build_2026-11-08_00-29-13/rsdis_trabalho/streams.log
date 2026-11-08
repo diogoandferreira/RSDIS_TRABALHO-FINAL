@@ -1,0 +1,74 @@
+[1.219s] Invoking command in '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build
+[1.666s] running develop
+[2.004s] Removing /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages/rsdis-trabalho.egg-link (link to .)
+[2.092s] Invoked command in '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build
+[2.094s] Invoking command in '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/src/rsdis_trabalho': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rsdis_trabalho build --build-base /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build install --record /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/install.log --install-scripts $base/lib/rsdis_trabalho --single-version-externally-managed install_data --force
+[2.510s] running egg_info
+[2.546s] writing ../../build/rsdis_trabalho/rsdis_trabalho.egg-info/PKG-INFO
+[2.547s] writing dependency_links to ../../build/rsdis_trabalho/rsdis_trabalho.egg-info/dependency_links.txt
+[2.547s] writing entry points to ../../build/rsdis_trabalho/rsdis_trabalho.egg-info/entry_points.txt
+[2.547s] writing requirements to ../../build/rsdis_trabalho/rsdis_trabalho.egg-info/requires.txt
+[2.548s] writing top-level names to ../../build/rsdis_trabalho/rsdis_trabalho.egg-info/top_level.txt
+[2.626s] reading manifest file '../../build/rsdis_trabalho/rsdis_trabalho.egg-info/SOURCES.txt'
+[2.628s] writing manifest file '../../build/rsdis_trabalho/rsdis_trabalho.egg-info/SOURCES.txt'
+[2.629s] running build
+[2.629s] running build_py
+[2.630s] copying rsdis_trabalho/detection_drone.py -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build/lib/rsdis_trabalho
+[2.631s] running install
+[2.643s] running install_lib
+[2.683s] creating /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages/rsdis_trabalho
+[2.684s] copying /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build/lib/rsdis_trabalho/detetion_cilinder.py -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages/rsdis_trabalho
+[2.685s] copying /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build/lib/rsdis_trabalho/obstacle_avoidance.py -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages/rsdis_trabalho
+[2.685s] copying /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build/lib/rsdis_trabalho/detection_drone.py -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages/rsdis_trabalho
+[2.685s] copying /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build/lib/rsdis_trabalho/__init__.py -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages/rsdis_trabalho
+[2.685s] byte-compiling /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages/rsdis_trabalho/detetion_cilinder.py to detetion_cilinder.cpython-312.pyc
+[2.686s] byte-compiling /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages/rsdis_trabalho/obstacle_avoidance.py to obstacle_avoidance.cpython-312.pyc
+[2.687s] byte-compiling /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages/rsdis_trabalho/detection_drone.py to detection_drone.cpython-312.pyc
+[2.690s] byte-compiling /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages/rsdis_trabalho/__init__.py to __init__.cpython-312.pyc
+[2.690s] running install_data
+[2.690s] copying resource/rsdis_trabalho -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/ament_index/resource_index/packages
+[2.691s] copying package.xml -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho
+[2.691s] copying launch/orchard_turtlebot.launch.py -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/launch
+[2.692s] copying worlds/orchard.sdf -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/worlds
+[2.692s] copying models/x3_uav/model.sdf -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav
+[2.692s] copying models/x3_uav/model.config -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav
+[2.692s] copying models/x3_uav/model.sdf.bak -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav
+[2.692s] copying models/x3_uav/meshes/hummingbird.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.703s] copying models/x3_uav/meshes/neo11_propeller_cw.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.704s] copying models/x3_uav/meshes/vi_sensor.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.724s] copying models/x3_uav/meshes/neo9_propeller_cw.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.726s] copying models/x3_uav/meshes/neo11_propeller_ccw.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.728s] copying models/x3_uav/meshes/iris.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.750s] copying models/x3_uav/meshes/vi_camera.jpg -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.750s] copying models/x3_uav/meshes/x3.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.751s] copying models/x3_uav/meshes/neo11.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.758s] copying models/x3_uav/meshes/vi_sensor.jpg -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.762s] copying models/x3_uav/meshes/firefly.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.764s] copying models/x3_uav/meshes/neo9.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.771s] copying models/x3_uav/meshes/ardrone.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.790s] copying models/x3_uav/meshes/propeller_ccw.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.790s] copying models/x3_uav/meshes/x3.jpg -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.790s] copying models/x3_uav/meshes/neo9_propeller_ccw.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.792s] copying models/x3_uav/meshes/vi_camera.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.792s] copying models/x3_uav/meshes/pelican.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.794s] copying models/x3_uav/meshes/propeller_cw.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/meshes
+[2.794s] copying models/x3_uav/thumbnails/2.jpg -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/thumbnails
+[2.794s] copying models/x3_uav/thumbnails/1.jpg -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/thumbnails
+[2.794s] copying models/x3_uav/thumbnails/4.jpg -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/thumbnails
+[2.795s] copying models/x3_uav/thumbnails/5.jpg -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/thumbnails
+[2.795s] copying models/x3_uav/thumbnails/3.jpg -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/models/x3_uav/thumbnails
+[2.795s] copying meshes/orchard/orchard_trunks.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/meshes/orchard
+[2.814s] copying meshes/orchard/orchard_leaves.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/meshes/orchard
+[2.822s] copying meshes/orchard/orchard_world.dae -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/meshes/orchard
+[2.823s] copying meshes/orchard/Ground.png -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/meshes/orchard
+[2.879s] copying meshes/orchard/GroundForest003_COL_VAR1_3K.jpg.001.jpg -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/meshes/orchard
+[2.884s] copying meshes/orchard/RustPlain007_COL_VAR1_3K.jpg.001.jpg -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/meshes/orchard
+[2.888s] copying meshes/orchard/GroundMoss001_COL_1K.jpg.001.jpg -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/meshes/orchard
+[2.890s] copying meshes/orchard/GroundTireTracks001_COL_3K.jpg.001.jpg -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/meshes/orchard
+[2.897s] running install_egg_info
+[2.929s] Copying ../../build/rsdis_trabalho/rsdis_trabalho.egg-info to /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages/rsdis_trabalho-0.0.0-py3.12.egg-info
+[2.930s] running install_scripts
+[3.162s] Installing uav_camera_node script to /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/rsdis_trabalho
+[3.162s] Installing ugv_obstacle_avoidance_node script to /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/rsdis_trabalho
+[3.163s] writing list of installed files to '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/install.log'
+[3.244s] Invoked command in '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/src/rsdis_trabalho' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rsdis_trabalho build --build-base /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build install --record /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/install.log --install-scripts $base/lib/rsdis_trabalho --single-version-externally-managed install_data --force

@@ -1,0 +1,334 @@
+[0.117s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'rsdis_trabalho', '--symlink-install']
+[0.117s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['rsdis_trabalho'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x70621d1cf620>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70621d2ff710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70621d2ff710>>, mixin_verb=('build',))
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.156s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator) by extension 'ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator) by extensions ['cmake', 'python']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator) by extension 'cmake'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator) by extension 'python'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator) by extensions ['python_setup_py']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator) by extension 'python_setup_py'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_generator_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_generator_gz) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_generator_gz) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_generator_gz) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_generator_gz) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_generator_gz) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_generator_gz) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_generator_gz) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_generator_gz) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_simulator/clearpath_generator_gz' with type 'ros.ament_cmake' and name 'clearpath_generator_gz'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_gz) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_gz) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_gz) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_gz) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_gz) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_gz) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_gz) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_gz) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_gz) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_simulator/clearpath_gz' with type 'ros.ament_cmake' and name 'clearpath_gz'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_simulator) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_simulator) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_simulator) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_simulator) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_simulator) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_simulator) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_simulator) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/clearpath_simulator) by extension 'ros'
+[0.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/clearpath_simulator/clearpath_simulator' with type 'ros.ament_cmake' and name 'clearpath_simulator'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs) by extension 'ros'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs) by extensions ['cmake', 'python']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs) by extension 'cmake'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs) by extension 'python'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs) by extensions ['python_setup_py']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs) by extension 'python_setup_py'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/construction) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/construction) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/construction) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/construction) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/construction) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/construction) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/construction) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/construction) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/construction) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/construction) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/construction) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/construction) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/construction) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/construction) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/office) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/office) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/office) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/office) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/office) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/office) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/office) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/office) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/office) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/office) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/office) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/office) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/office) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/office) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/orchard) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/orchard) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/orchard) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/orchard) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/orchard) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/orchard) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/orchard) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/orchard) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/orchard) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/orchard) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/orchard) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/orchard) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/orchard) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/orchard) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/pipeline) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/pipeline) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/pipeline) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/pipeline) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/pipeline) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/pipeline) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/pipeline) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/pipeline) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/pipeline) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/pipeline) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/pipeline) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/pipeline) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/pipeline) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/solar_farm) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/solar_farm) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/solar_farm) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/solar_farm) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/solar_farm) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/solar_farm) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/solar_farm) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/solar_farm) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/solar_farm) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/solar_farm) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/solar_farm) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/solar_farm) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/solar_farm) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/solar_farm) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/warehouse) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/warehouse) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/warehouse) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/warehouse) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/warehouse) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/warehouse) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/warehouse) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/warehouse) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/warehouse) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/warehouse) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/warehouse) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/warehouse) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/warehouse) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/clearpath_simulator/docs/warehouse) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsdis_trabalho) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsdis_trabalho) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsdis_trabalho) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsdis_trabalho) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsdis_trabalho) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsdis_trabalho) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsdis_trabalho) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsdis_trabalho) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsdis_trabalho) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rsdis_trabalho' with type 'ros.ament_python' and name 'rsdis_trabalho'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/build) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/build) ignored
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/install) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/install) ignored
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/log) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/log) ignored
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src/build) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src/build) ignored
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src/install) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src/install) ignored
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src/log) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_ws/src/log) ignored
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.214s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'clearpath_generator_gz' in 'src/clearpath_simulator/clearpath_generator_gz'
+[0.214s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'clearpath_gz' in 'src/clearpath_simulator/clearpath_gz'
+[0.214s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'clearpath_simulator' in 'src/clearpath_simulator/clearpath_simulator'
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.215s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/src/rsdis_trabalho/worlds/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.215s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_t3b' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.215s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_t3a' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.215s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/clearpath_simulator' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.215s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/clearpath_gz' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.215s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/clearpath_generator_gz' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.216s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/clearpath_simulator' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.216s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/clearpath_gz' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.216s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/clearpath_generator_gz' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.217s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install
+[0.218s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/claudio/RSDIS/ros2_ws/install
+[0.221s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 509 installed packages in /opt/ros/jazzy
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rsdis_trabalho' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rsdis_trabalho' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rsdis_trabalho' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rsdis_trabalho' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rsdis_trabalho' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rsdis_trabalho' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rsdis_trabalho' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rsdis_trabalho' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'rsdis_trabalho' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'rsdis_trabalho' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho', 'merge_install': False, 'path': '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/src/rsdis_trabalho', 'symlink_install': True, 'test_result_base': None}
+[0.306s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.307s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.307s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/src/rsdis_trabalho' with build type 'ament_python'
+[0.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('rsdis_trabalho', 'ament_prefix_path')
+[0.310s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/hook/ament_prefix_path.ps1'
+[0.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/hook/ament_prefix_path.dsv'
+[0.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/hook/ament_prefix_path.sh'
+[0.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.607s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/src/rsdis_trabalho'
+[0.608s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.608s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.426s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: symlink_data, setopt, saveopts, check, install_scripts, easy_install, update_catalog, dist_info, build_py, build_ext, egg_info, alias, build_clib, register, develop, compile_catalog, extract_messages, install, editable_wheel, build_scripts, test, clean, install_headers, bdist_wheel, init_catalog, bdist_rpm, bdist, sdist, install_egg_info, upload_docs, bdist_egg, bdist_dumb, build, upload, install_lib, rotate, install_data
+[1.874s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --record, --quiet, --upgrade, --always-copy, --optimize, --install-dir, --build-directory, --find-links, --uninstall, --verbose, --exclude-scripts, --no-find-links, --local-snapshots-ok, --always-unzip, --dry-run, --site-dirs, --script-dir, --index-url, --no-user-cfg, --force-installation-into-system-dir, --no-deps, --version, --prefix, --editable, --zip-ok, --allow-hosts, --help, --multi-version, --user, --install-layout, --egg-path
+[1.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build --no-deps symlink_data
+[2.795s] Level 1:colcon.colcon_core.shell:create_environment_hook('rsdis_trabalho', 'pythonpath_develop')
+[2.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build --no-deps symlink_data
+[2.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/share/rsdis_trabalho/hook/pythonpath_develop.ps1'
+[2.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/share/rsdis_trabalho/hook/pythonpath_develop.dsv'
+[2.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/share/rsdis_trabalho/hook/pythonpath_develop.sh'
+[2.799s] Level 1:colcon.colcon_core.environment:checking '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho' for CMake module files
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho' for CMake config files
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/bin'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/pkgconfig/rsdis_trabalho.pc'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages'
+[2.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('rsdis_trabalho', 'pythonpath')
+[2.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/hook/pythonpath.ps1'
+[2.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/hook/pythonpath.dsv'
+[2.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/hook/pythonpath.sh'
+[2.803s] Level 1:colcon.colcon_core.environment:checking '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/bin'
+[2.803s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rsdis_trabalho)
+[2.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/package.ps1'
+[2.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/package.dsv'
+[2.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/package.sh'
+[2.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/package.bash'
+[2.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/rsdis_trabalho/package.zsh'
+[2.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/share/colcon-core/packages/rsdis_trabalho)
+[2.806s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.807s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.807s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.807s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.814s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.814s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.814s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.829s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.829s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/local_setup.ps1'
+[2.830s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/_local_setup_util_ps1.py'
+[2.831s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/setup.ps1'
+[2.833s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/local_setup.sh'
+[2.834s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/_local_setup_util_sh.py'
+[2.834s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/setup.sh'
+[2.836s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/local_setup.bash'
+[2.837s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/setup.bash'
+[2.839s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/local_setup.zsh'
+[2.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/setup.zsh'

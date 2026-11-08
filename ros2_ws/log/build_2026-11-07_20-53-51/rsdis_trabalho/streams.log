@@ -1,0 +1,18 @@
+[1.930s] Invoking command in '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build --no-deps symlink_data
+[2.369s] running develop
+[2.682s] running egg_info
+[2.713s] writing rsdis_trabalho.egg-info/PKG-INFO
+[2.713s] writing dependency_links to rsdis_trabalho.egg-info/dependency_links.txt
+[2.714s] writing entry points to rsdis_trabalho.egg-info/entry_points.txt
+[2.714s] writing requirements to rsdis_trabalho.egg-info/requires.txt
+[2.714s] writing top-level names to rsdis_trabalho.egg-info/top_level.txt
+[2.746s] reading manifest file 'rsdis_trabalho.egg-info/SOURCES.txt'
+[2.747s] writing manifest file 'rsdis_trabalho.egg-info/SOURCES.txt'
+[2.778s] running build_ext
+[2.810s] Creating /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages/rsdis-trabalho.egg-link (link to .)
+[2.811s] Installing uav_camera_node script to /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/rsdis_trabalho
+[2.811s] Installing ugv_obstacle_avoidance_node script to /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/rsdis_trabalho
+[2.811s] 
+[2.811s] Installed /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho
+[2.811s] running symlink_data
+[2.878s] Invoked command in '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build --no-deps symlink_data

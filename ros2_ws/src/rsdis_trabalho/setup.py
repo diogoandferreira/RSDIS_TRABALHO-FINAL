@@ -46,8 +46,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'uav_camera_node = rsdis_trabalho.detetion_cilinder:main',
-            'ugv_obstacle_avoidance_node = rsdis_trabalho.obstacle_avoidance:main'
+            'uav_camera_node = rsdis_trabalho.detection_drone:main',
+            'ugv_obstacle_avoidance_node = rsdis_trabalho.obstacle_avoidance:main',
+            'ugv_follow_tree_node = rsdis_trabalho.seguir:main',
         ],
     },
 )

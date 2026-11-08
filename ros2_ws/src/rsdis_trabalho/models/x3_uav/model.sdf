@@ -32,6 +32,24 @@
                     </mesh>
                 </geometry>
             </visual>
+            <sensor name="uav_camera" type="camera">
+            <pose>0 0 -0.05 0 1.5708 0</pose>
+            <always_on>true</always_on>
+            <update_rate>10</update_rate>
+            <topic>uav/camera/image_raw</topic>
+            <camera>
+                <horizontal_fov>1.047</horizontal_fov>
+                <image>
+                <width>800</width>
+                <height>800</height>
+                <format>R8G8B8</format>
+                </image>
+                <clip>
+                <near>0.1</near>
+                <far>50</far>
+                </clip>
+            </camera>
+            </sensor>
         </link>
         <link name="X3/rotor_0">
             <pose frame="">0.13 -0.22 0.023 0 -0 0</pose>
@@ -401,6 +419,14 @@
           <direction>-1</direction>
         </rotor>
       </rotorConfiguration>
+    </plugin>
+    <!-- Plugin de Odometria para publicar a posição e velocidade -->
+    <plugin filename="gz-sim-odometry-publisher-system"
+            name="gz::sim::systems::OdometryPublisher">
+      <odom_frame>X3/odom</odom_frame>
+      <robot_base_frame>X3/base_link</robot_base_frame>
+      <odom_topic>X3/gazebo/odometry</odom_topic>
+      <dimensions>3</dimensions>
     </plugin>
     </model>
 </sdf>

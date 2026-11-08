@@ -20,18 +20,21 @@ def generate_launch_description():
         robot_description = f.read()
 
     # Modelo SDF do TurtleBot3 Waffle (com DiffDrive)
-    tb3_model_path = os.path.join(pkg_turtlebot3_gz, 'models', 'turtlebot3_waffle', 'model.sdf')
+    tb3_model_path = os.path.join(
+        pkg_turtlebot3_gz, 'models', 'turtlebot3_waffle', 'model.sdf')
 
-    # Meshes do pomar (contem a pasta orchard/orchard_world.dae)
-    clearpath_meshes = ('/home/diogo-ferreira/MEEC/1ANO/RSDIS/RSDIS_TRABALHO-FINAL/ros2_ws/src/'
-                        'clearpath_simulator/clearpath_gz/meshes')
+    # ---- Caminhos de recursos do Gazebo (têm de vir ANTES do gz_sim) ----
+    # models -> model://x3_uav
+    set_models = AppendEnvironmentVariable(
+        'GZ_SIM_RESOURCE_PATH', os.path.join(pkg_rsdis_trabalho, 'models'))
+    # meshes -> model://orchard/orchard_world.dae
+    set_meshes = AppendEnvironmentVariable(
+        'GZ_SIM_RESOURCE_PATH', os.path.join(pkg_rsdis_trabalho, 'meshes'))
+    # modelos do TurtleBot3
+    set_tb3 = AppendEnvironmentVariable(
+        'GZ_SIM_RESOURCE_PATH', os.path.join(pkg_turtlebot3_gz, 'models'))
 
-    set_gz_path = AppendEnvironmentVariable(
-        'GZ_SIM_RESOURCE_PATH',
-        f'{pkg_turtlebot3_gz}/models:{clearpath_meshes}'
-    )
-
-    # 1. Gazebo Sim com o pomar
+    # 1. Gazebo Sim com o pomar (o X3 vem do <include> no orchard.sdf)
     gz_sim = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(pkg_ros_gz_sim, 'launch', 'gz_sim.launch.py')
@@ -57,29 +60,33 @@ def generate_launch_description():
         output='screen',
     )
 
-    # 4. Bridge ROS 2 <-> Gazebo (topicos curtos, definidos no SDF/modelo)
+    # 4. Bridge ROS 2 <-> Gazebo
     bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
         arguments=[
+            # TurtleBot3
             '/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock',
             '/cmd_vel@geometry_msgs/msg/Twist]gz.msgs.Twist',
             '/odom@nav_msgs/msg/Odometry[gz.msgs.Odometry',
             '/tf@tf2_msgs/msg/TFMessage[gz.msgs.Pose_V',
             '/joint_states@sensor_msgs/msg/JointState[gz.msgs.Model',
-
             '/scan@sensor_msgs/msg/LaserScan[gz.msgs.LaserScan',
-
+            # Camara do UAV (usada pelos nós da equipa)
             '/uav/camera/image_raw@sensor_msgs/msg/Image[gz.msgs.Image',
             '/uav/camera/camera_info@sensor_msgs/msg/CameraInfo[gz.msgs.CameraInfo',
-            '/uav/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist'
-        ],
+            # X3 UAV
+            '/X3/gazebo/command/twist@geometry_msgs/msg/Twist]gz.msgs.Twist',
+            '/X3/enable@std_msgs/msg/Bool]gz.msgs.Boolean',
+            '/X3/gazebo/odometry@nav_msgs/msg/Odometry[gz.msgs.Odometry',],
         parameters=[{'use_sim_time': True}],
         output='screen',
     )
 
     return LaunchDescription([
-        set_gz_path,
+        set_models,
+        set_meshes,
+        set_tb3,
         gz_sim,
         robot_state_publisher,
         spawn_turtlebot,

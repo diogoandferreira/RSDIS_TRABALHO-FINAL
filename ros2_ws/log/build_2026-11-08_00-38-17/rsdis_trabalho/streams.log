@@ -1,0 +1,25 @@
+[1.581s] Invoking command in '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/src/rsdis_trabalho': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rsdis_trabalho build --build-base /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build install --record /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/install.log --install-scripts $base/lib/rsdis_trabalho --single-version-externally-managed install_data
+[2.115s] running egg_info
+[2.157s] writing ../../build/rsdis_trabalho/rsdis_trabalho.egg-info/PKG-INFO
+[2.157s] writing dependency_links to ../../build/rsdis_trabalho/rsdis_trabalho.egg-info/dependency_links.txt
+[2.157s] writing entry points to ../../build/rsdis_trabalho/rsdis_trabalho.egg-info/entry_points.txt
+[2.157s] writing requirements to ../../build/rsdis_trabalho/rsdis_trabalho.egg-info/requires.txt
+[2.158s] writing top-level names to ../../build/rsdis_trabalho/rsdis_trabalho.egg-info/top_level.txt
+[2.239s] reading manifest file '../../build/rsdis_trabalho/rsdis_trabalho.egg-info/SOURCES.txt'
+[2.242s] writing manifest file '../../build/rsdis_trabalho/rsdis_trabalho.egg-info/SOURCES.txt'
+[2.242s] running build
+[2.242s] running build_py
+[2.242s] copying rsdis_trabalho/detection_drone.py -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build/lib/rsdis_trabalho
+[2.243s] running install
+[2.251s] running install_lib
+[2.289s] copying /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build/lib/rsdis_trabalho/detection_drone.py -> /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages/rsdis_trabalho
+[2.291s] byte-compiling /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages/rsdis_trabalho/detection_drone.py to detection_drone.cpython-312.pyc
+[2.295s] running install_data
+[2.296s] running install_egg_info
+[2.338s] removing '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages/rsdis_trabalho-0.0.0-py3.12.egg-info' (and everything under it)
+[2.338s] Copying ../../build/rsdis_trabalho/rsdis_trabalho.egg-info to /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages/rsdis_trabalho-0.0.0-py3.12.egg-info
+[2.339s] running install_scripts
+[2.600s] Installing uav_camera_node script to /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/rsdis_trabalho
+[2.601s] Installing ugv_obstacle_avoidance_node script to /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/rsdis_trabalho
+[2.602s] writing list of installed files to '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/install.log'
+[2.694s] Invoked command in '/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/src/rsdis_trabalho' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/install/rsdis_trabalho/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rsdis_trabalho build --build-base /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/build install --record /home/claudio/rsdis/RSDIS_TRABALHO-FINAL/ros2_ws/build/rsdis_trabalho/install.log --install-scripts $base/lib/rsdis_trabalho --single-version-externally-managed install_data
