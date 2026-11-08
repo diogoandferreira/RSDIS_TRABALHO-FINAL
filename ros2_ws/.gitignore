@@ -1,0 +1,10 @@
+# Pastas de build, install e logs do ROS 2 / colcon
+build/
+install/
+log/
+
+# Ficheiros temporários de Python e ROS 2
+__pycache__/
+*.pyc
+.vscode/
+.idea/
