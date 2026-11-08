@@ -10,9 +10,6 @@ from nav_msgs.msg import Odometry
 from std_msgs.msg import String
 
 
-# ======================================================================
-# Funções puras (sem ROS): fáceis de testar
-# ======================================================================
 def normalizar_angulo(a):
     return math.atan2(math.sin(a), math.cos(a))
 

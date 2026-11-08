@@ -93,7 +93,7 @@
     </model>
 
 
-    <!-- ==================== 10 ÁRVORES CILÍNDRICAS (Y = -1.36) ==================== -->
+    <!-- ==================== 14 ÁRVORES CILÍNDRICAS (Y = -1.36) ==================== -->
     <model name='arvore_1'>
       <static>true</static>
       <pose>4.80 0.0 0.5 0 0 0</pose>
